@@ -2,7 +2,7 @@
 
 Ist eine deutsche Version von [Word Master](https://github.com/octokatherine/word-master). Das ist wiederum ein Klon von [Wordle](https://www.powerlanguage.co.uk/wordle/).
 
-🔗 https://octokatherine.github.io/word-master/
+🔗 https://meisterwort.github.io/word-master/
 
 ## Regeln
 
