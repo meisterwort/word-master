@@ -1,11 +1,12 @@
 export const keyboardLetters = [
-  ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P'],
-  ['A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L'],
-  ['Z', 'X', 'C', 'V', 'B', 'N', 'M'],
+  ['Q', 'W', 'E', 'R', 'T', 'Z', 'U', 'I', 'O', 'P', 'Ü'],
+  ['A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'Ö', 'Ä'],
+  ['Y', 'X', 'C', 'V', 'B', 'N', 'M'],
 ]
 
 export const letters = [
   'A',
+  'Ä',
   'B',
   'C',
   'D',
@@ -20,12 +21,14 @@ export const letters = [
   'M',
   'N',
   'O',
+  'Ö',
   'P',
   'Q',
   'R',
   'S',
   'T',
   'U',
+  'Ü',
   'V',
   'W',
   'X',
