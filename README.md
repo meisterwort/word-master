@@ -1,22 +1,27 @@
-# Word Master
+# Wort Meister
+
+Ist eine deutsche Version von [Word Master](https://github.com/octokatherine/word-master). Das ist wiederum ein Klon von [Wordle](https://www.powerlanguage.co.uk/wordle/).
 
 🔗 https://octokatherine.github.io/word-master/
 
-Heavily inspired by [Wordle](https://www.powerlanguage.co.uk/wordle/), Word Master is a word guessing game similar to Mastermind. I created this because I love Wordle, but the once a day limit leaves me wanting more.
+## Regeln
 
-## Rules
+Du hast 6 Versuche um das korrekte Wort zu erraten.
+Jeder Versuch kann irgendein gültiges Wort sein.
 
-You have 6 guesses to guess the correct word.
-Each guess can be any valid word.
+Nachdem ein Versuch abgeschickt wurde, färben sich die Buchstaben grau, grün oder gelb.
 
-After submitting a guess, the letters will turn gray, green, or yellow.
+- Grün: Der Buchstabe ist korrekt, in der korrekten Position.
+- Gelb: Der Buchstabe ist korrekt, aber in der falschen Position.
+- Grau: Der Buchstabe ist nicht korrekt.
 
-- Green: The letter is correct, in the correct position.
-- Yellow: The letter is correct, but in the wrong position.
-- Gray: The letter is incorrect.
+## Bauen
 
-## Contributing
+Um diese Website von einer Ubuntu Live CD zu bauen sind folgende Schritte nötig:
 
-Feel free to open an issue for any bugs or feature requests.
-
-To contribute to the code, see [CONTRIBUTING.md](https://github.com/octokatherine/word-master/blob/main/CONTRIBUTING.md)
+sudo apt-get install node.js npm
+npm cache clean -f
+sudo npm install -g n
+sudo n stable
+npm install
+npm run predeploy
